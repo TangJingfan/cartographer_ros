@@ -36,5 +36,8 @@ TRAJECTORY_BUILDER_2D.use_imu_data = true
 TRAJECTORY_BUILDER_2D.min_range = 0.15
 TRAJECTORY_BUILDER_2D.max_range = 12.0
 POSE_GRAPH.optimization_problem.huber_scale = 1e2
+POSE_GRAPH.optimize_every_n_nodes = 90
+POSE_GRAPH.constraint_builder.min_score = 0.65 
+POSE_GRAPH.max_num_final_iterations = 200
 
 return options
